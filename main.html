@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+          background-image: url('image1.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;  
+          background-size: cover;
+          background: linear-gradient(rgba(0,0,0,0.68),
+           rgba(0,0,0,0.68),rgba(0,0,0,0.68),rgba(0, 0, 0, 0.));
+          margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+        }
+
+.topnav {
+  overflow: hidden;
+  background-color: #2c2b2b;
+}
+.textbox{
+    float: right;
+    border: 1px solid solid hotpink;
+
+}
+
+ul li{
+    float:left;
+    width: 100px;
+    text-transform: capitalize;
+    list-style-type: none;
+    font-family: kulim park ,sans-serif;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: hotpink;
+  color: white;
+}
+ /*
+.form{
+    width: 300px;
+    height: 420px;
+    background: linear-gradient(to top, rgba(1, 1, 1, 0.401)50% , rgba(1, 1, 1, 0.401)50% );
+    position: absolute;
+    top: 130px;
+    left: 220px;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+*/
+.context{
+  position: absolute;
+  left: 38%;
+  top: 30%;
+}
+h5{
+  font-size: 50px;
+  color: white;
+  font-family: titillium web, sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+font{
+    color: white;
+    opacity: 0.4;
+}
+
+.cover{
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  width: 330px;
+    height: 450px;
+  position: absolute ;
+  left: 15%;
+  top: 20%;
+  border-radius: 8px ;
+  box-shadow: 0px 0px 16px 7px; 
+  opacity: 1;
+
+
+}
+.subcover{
+  border-bottom: 1px solid none;
+  background: rgb(0, 0, 0);
+  width: 330px;
+  left: 15%;
+  top: 20%;
+  height: 450px;
+  opacity: 0.6;
+  border-radius: 8px;
+
+}
+
+.cover-image{
+  text-align: center;
+
+}
+
+img{
+  border-radius: 20px;
+  position: absolute;
+  left: 22%;
+  top: 10%;
+  margin: -10px -9px;
+  opacity: 0.7;
+}
+
+.text{
+  position: absolute;
+  left: 17%;
+  top: 55%;
+  margin: -1px -10px;
+
+}
+h1{
+  color: white;
+  font-family: kulim park, sans-serif;
+  line-height: 2px;
+  font-weight: normal;
+
+}
+
+h2{
+  color: white;
+  font-family: kulim park, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  opacity: 0.3;
+  margin-top: -6px;
+}
+
+.line{
+  border-bottom: 2px solid hotpink;
+  position: absolute;
+  top: 95%;
+  left: 7%;
+  width: 250px;
+  box-shadow: 1px 0px 4px;
+  color: hotpink;
+}
+
+.fa-circle{
+  color: hotpink;
+  position: absolute;
+  top: 64%;
+  left: 25%;
+  margin-top: -6px;
+
+}
+
+.number{
+
+}
+
+h3{
+  position: absolute;
+  left: 7%;
+  top:75%;
+  font-size: 14px;
+  color: white;
+  font-family: kulim park, sans-serif;
+  font-weight: normal;
+}
+h4{
+  position: absolute;
+  left: 81%;
+  top: 75%;
+  font-size: 14px;
+  color: white;
+  font-family: kulim park, sans-serif;
+  font-weight: normal;
+}
+.player{
+ /* border-bottom: 1px solid white;
+  font-size: 60px;*/
+}
+
+
+.fa-pause-circle{
+  border-bottom: 1px solid white;
+  font-size: 60px;
+  position: absolute;
+  color: hotpink;
+  left: 39%;
+  top: 130%;
+}
+.forward{
+  font-size: 60px;
+  position: absolute;
+  color: hotpink;
+  left: 63%;
+  top: 110%;
+}
+
+.backward{
+  font-size: 60px;
+  position: absolute;
+  color: hotpink;
+  left: 15%;
+  top: 110%;
+
+}
+
+
+
+        
+</style>
+    
+</head>
+<body >
+  <div class="topnav">
+    
+    <a href="About">About</a>
+    <a href="#contact">Music</a>
+    <a href="album.html">Album</a>
+    <a class="active" href="#home">Home</a>
+    
+    
+    
+   
+  </div>
+
+  <div class="cover">
+  <div class="subcover">
+
+  </div>
+
+  <div class="cover-image">
+    <img src="cover3.jpeg " width="200" height="200">
+  </div>
+  </div>
+  <div class="text">
+    <h1>Beyond Bollywood</h1>
+    <h2>&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbspArjit Singh</h2>
+  
+    <div class="line">
+      <i class="fa fa-circle" aria-hidden="true"></i>
+  
+    </div>
+  
+    <div class="number">
+      <h3>0:45</h3>
+      <h4>3:24</h4>
+    </div>
+  
+    <div class="player">
+      <i class="fa fa-pause-circle" aria-hidden="true"></i>
+    </div>
+
+    <div class="forward">
+      <i class="fa fa-forward" aria-hidden="true"></i>
+    </div>
+
+    <div class="backward">
+      <i class="fa fa-backward" aria-hidden="true"></i>
+
+    </div>
+
+  </div>
+
+ 
+
+    
+    <div class="context">
+      <h5> Without <font> Music life </font> <br> Would be a <font> Mistake</font></h5>
+    </div>
+   
+        
+  </body>
+  </html>
+  
